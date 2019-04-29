@@ -2,7 +2,8 @@
 
 ## Revamping A Website
 
-You are required to revamp https://www.balletbloch.comCreate only 4 menus for this website following the instructions below;
+You are required to revamp https://www.balletbloch.com  
+Create only 4 menus for this website following the instructions below;
 
 a. Use color theme from https://coolors.co.  
 b. Apply proper contrast for each page.  
