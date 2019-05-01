@@ -17,7 +17,10 @@ g. All page layout should be responsive.
 
 ## Our regulation
 
-### Fonts & Colors
+### Fonts
+![Fonts](img/fonts.png)
+
+### Color theme
 [![color theme](img/color_theme.png)](https://coolors.co/fdd4da-73545a-f6ede4-fefbfb-1f1627)  
 
 ### Links
