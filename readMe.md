@@ -1,5 +1,7 @@
 # Project 1
 
+## Tasks
+
 ### Revamping A Website
 
 You are required to revamp https://www.balletbloch.com  
@@ -13,6 +15,10 @@ e. Research Ballet studios sites before you start.
 f. Use Roll-over buttons.  
 g. All page layout should be responsive.  
 
+## Our regulation
+
+### Fonts & Colors
+[![color theme](img/color_theme.png)](https://coolors.co/fdd4da-73545a-f6ede4-fefbfb-1f1627)  
 
 ### Links
 [Wireframe](https://www.figma.com/file/EBBDozfdUbTvKgThgjSKPpIY/ballet-site?node-id=0%3A1)  
