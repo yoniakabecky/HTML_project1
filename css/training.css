@@ -1,0 +1,108 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #73545A;
+    color: #FEFBFB;
+}
+
+h1:after {
+    content: "";
+    display: block;
+    margin: 0;
+    width: 150px;
+    padding-top: 20px;
+    border-bottom: thin solid #FEFBFB;
+}
+
+.section-title {
+    float: left;
+    padding-top: 20vh;
+    padding-left: 8vw;
+}
+
+.section-img {
+    float: right;
+    width: 70vw;
+    height: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.paragraph {
+    margin: 10%;
+}
+
+.paragraph-contents {
+    display: flex;
+    /* flex-wrap: wrap; responsible*/
+}
+
+.paragraph-contents p, h2{
+    padding: 0 0 10px 20px;
+}
+
+.paragraph-contents p{
+    padding-bottom: 40px;
+}
+
+.paragraph-img {
+    width: 228px;
+    height: 290px;
+    margin: 0 10px 40px 10px;
+}
+
+.audition {
+    margin: 4% 10% 5% 10%;
+}
+
+.audition h3 {
+    padding-left: 4vw;
+}
+
+.audition-locations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location {
+    margin: 3% 2vw 0 2vw;
+    width: 200px;
+    height: 100px;
+    line-height: 1.4em;
+}
+
+.city-name {
+    font-size: 21px;
+    margin-left: -1vw;
+}
+
+.annual-audition p {
+    padding-left: 10vw;
+}
+
+#annual-audition-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact-button {
+    width: 200px;
+    height: 40px;
+    background-color: #F6EDE4;
+    border-radius: 5px;
+    color: #73545A;
+    font-weight: Semi-Bold;
+    font-size: 21px;
+    transition-duration: 0.4s;
+    margin: 5% 10vw 0 10vw;
+}
+
+#contact-button:hover {
+    background-color: #73545A;
+    color: #F6EDE4;
+}
