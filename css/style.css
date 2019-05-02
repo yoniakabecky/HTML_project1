@@ -58,6 +58,12 @@ header {
   justify-content: space-between;
   margin: 50px 37px;
   font-size: 24px;
+  transition-duration: 0.3s;
+  transition-property:color;
+}
+
+.menu-area a:hover {
+  color:#73545a;
 }
 
 .social-area {
@@ -66,9 +72,14 @@ header {
   right: 0;
 }
 
+.social-area img:hover {
+  opacity: 0.7;
+}
+
 .fb {
   margin-right: 35px; 
 }
+
 
 /* footer area */
 footer {
@@ -76,9 +87,13 @@ footer {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px; 
-  background: #6b5d62;
+  background: #73545a;
 }
 
 .f-social-area {
   margin-bottom: 45px; 
+}
+
+.f-social-area img:hover {
+  opacity: 0.7;
 }
