@@ -1,0 +1,84 @@
+/* reset CSS */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* common CSS */
+/* header area */
+header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #262626;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 1230px;
+  position: relative;
+}
+
+.icon-area {
+  justify-content: flex-start;
+  margin-top: 40px;
+  position: absolute;
+  left: 0;
+}
+
+.menu-area {
+  display: flex;
+  justify-content: center;
+  width: 656px;
+} 
+
+.menu-area a {
+  color: #FFFFFF;
+  font-family: 'Philosopher', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 37px;
+  font-size: 24px;
+}
+
+.social-area {
+  margin-top: 47px;
+  position: absolute;
+  right: 0;
+}
+
+.fb {
+  margin-right: 35px; 
+}
+
+/* footer area */
+footer {
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px; 
+  background: #6b5d62;
+}
+
+.f-social-area {
+  margin-bottom: 45px; 
+}
