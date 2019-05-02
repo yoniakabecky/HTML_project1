@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Philosopher" rel="stylesheet">
+        <style>
+            #contact {
+                background: #FFFFFF;
+                position: relative;
+                width: 1440px;
+                height: 2532;
+            }
+            #header {
+                position: absolute; 
+                width: 1224px;
+                height: 65px;
+                left: 108px;
+                top: 39px; 
+            }
+            a, li {
+                display: inline;
+                color: black;
+            }
+            li:hover{
+                color: blue;
+            }
+            #section1{
+                position: absolute;
+                width: 1440px;
+                height: 497px;
+                left: 0px;
+                top: 190px;
+            }
+            h1{
+                font-size: 48px;
+                font-weight: 800;
+                font-family: 'Philosopher', sans-serif;
+            }
+            h3{
+                font-size: 24px;
+                font-weight: 600; 
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            #section2{
+                position: absolute;
+                width: 1194.5px;
+                height: 137.5px;
+                top: 833px;
+            }
+            form{
+                position: absolute;
+                width: 1062px;
+                height: 637px;
+                left: 187px;
+                top: 1515px;
+            }
+            fieldset{
+                background-color: #73545a;
+                font-size: 21px; 
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+            }
+            input{
+                margin: 5px; 
+                height: 20px;
+                width:300px;
+            }
+            textarea{
+                margin: 5px; 
+                height: 50px; 
+            }
+            .button {
+                text-align: center; 
+                font-size: 21px; 
+            }
+            #footer {
+                position: absolute; 
+                width: 301; 
+                height: 115px;
+                left: 569px;
+                top: 2301px; 
+            }
+            
+            .adjust{
+                width:7em;
+                display:inline-block;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <div id="contact">
+            <header>
+                <div id="header">
+                    <ul class="menu">
+                        <a href="#home"><li>Home</li></a>
+                        <a href="#ourteam"><li>Our Team</li></a>
+                        <a href="#auditions"><li>Auditions</li></a>
+                        <a href="#contact"><li>Contact</li></a>
+                    </ul>
+                </div> 
+            </header>
+            <div id="section1">
+                <div>
+                    <h1>Contact</h1>
+                </div>
+                <div id="contactBox"></div>
+            </div>
+            <div id="addressBox">
+
+            </div>
+            <div id="section2">
+                <div id="address"> 
+                    <br>
+                    <h3>info@balletbloch.com</h3>
+                    <br> 
+                    <h3>3rd Floor <br>
+                        106 West 1st Street<br>
+                        North Vancouver BC<br>
+                        V7M 1A9<br>
+                        CANADA<br> <br>
+                    </h3>
+                    <h3>
+                        We are located two blocks up from <br>
+                        the Sea Bus at Lonsdale Quay <br>
+                        - a two minute walk<br>
+                    </h3>
+                </div> 
+            </div> 
+            <form method="post" action="mailto:info@balletbloch.com" enctype="text/plain">
+                <fieldset>
+                    <div id="contact-form">
+                        <div class="contact-element">
+                            <label for="name" class="adjust">Name</label>
+                            <input type="text" id="name" name="name"/> 
+                        </div>
+                    <div class="contact-element">
+                            <label for="email" class="adjust" >Email</label>
+                    <input type="text" id="email" name="email"></div>
+                    <div class="contact-element">
+                            <label for="subject" class="adjust">Subject</label>
+                    <input type="text" id="subject" name="subject"> </div> 
+                    
+                    <div class="contact-element">
+                            <label for="name" class="adjust">Message</label>
+                    <textarea rows="5" cols="50" id="message" name="message">Message</textarea>  </div>
+
+                    </div>
+                    <input class="button" type="send" value="Send">        
+                </fieldset>
+            </form>
+            <footer>
+                <div id="footer">
+                    <p class="copyright">&copy; Ballet Bloch Canada 2016</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
