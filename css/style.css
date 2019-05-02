@@ -66,10 +66,15 @@ header {
   color:#73545a;
 }
 
-.social-area {
+.social-area {  
   margin-top: 47px;
   position: absolute;
   right: 0;
+}
+
+.social-area img {
+  transition-duration: 0.3s;
+  transition-property: opacity;
 }
 
 .social-area img:hover {
@@ -90,8 +95,10 @@ footer {
   background: #73545a;
 }
 
-.f-social-area {
-  margin-bottom: 45px; 
+.f-social-area img {
+  margin-bottom: 45px;
+  transition-duration: 0.3s;
+  transition-property: opacity;
 }
 
 .f-social-area img:hover {
