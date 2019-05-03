@@ -12,8 +12,9 @@ h1:after {
     content: "";
     display: block;
     margin: 0;
-    width: 150px;
-    padding-top: 20px;
+    width: 140%;
+    margin-left: -20%;
+    padding-top: 15px;
     border-bottom: thin solid #FEFBFB;
 }
 
@@ -120,9 +121,17 @@ h1:after {
         justify-content: center;
         flex-wrap: wrap;
     }
-    .audition h3 {
-        padding: 0 0 3vh 4vw;
+    
+    .audition h2, h3 {
+        padding: 0 0 3vh 0;
     }
 
+    #annual-audition-contents {
+        justify-content: center;
+    }
+
+    #annual-audition-contents p{
+        padding-left: 0;
+    }
 
 }
