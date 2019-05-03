@@ -12,8 +12,9 @@ h1:after {
     content: "";
     display: block;
     margin: 0;
-    width: 150px;
-    padding-top: 20px;
+    width: 140%;
+    margin-left: -20%;
+    padding-top: 15px;
     border-bottom: thin solid #FEFBFB;
 }
 
