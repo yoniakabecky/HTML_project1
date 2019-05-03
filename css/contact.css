@@ -38,6 +38,12 @@ li:hover{
     top: 190px;
 }
 
+#contactImage {
+    float: right; 
+    width: 70vw;
+    height: auto; 
+}
+
 h1{
     font-size: 48px;
     font-weight: 800;
