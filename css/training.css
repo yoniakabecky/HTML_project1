@@ -32,16 +32,15 @@ h1:after {
 }
 
 .paragraph {
-    margin: 10%;
+    margin: 6%;
 }
 
 .paragraph-contents {
     display: flex;
-    /* flex-wrap: wrap; responsible*/
 }
 
 .paragraph-contents p, h2{
-    padding: 0 0 10px 20px;
+    padding: 0 1vw 5vh 2.5vw;
 }
 
 .paragraph-contents p{
@@ -51,7 +50,7 @@ h1:after {
 .paragraph-img {
     width: 228px;
     height: 290px;
-    margin: 0 10px 40px 10px;
+    margin: 0 1vw 10vh 1vw;
 }
 
 .audition {
@@ -69,7 +68,7 @@ h1:after {
 }
 
 .location {
-    margin: 3% 2vw 0 2vw;
+    margin: 3vh 2vw 0 2vw;
     width: 200px;
     height: 100px;
     line-height: 1.4em;
@@ -105,4 +104,25 @@ h1:after {
 #contact-button:hover {
     background-color: #73545A;
     color: #F6EDE4;
+}
+
+@media screen and (max-width:768px)  {
+    .section-title {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    .section-img {
+        width: 100%;
+        padding-bottom: 5vh;
+    }
+    .paragraph-contents {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .audition h3 {
+        padding: 0 0 3vh 4vw;
+    }
+
+
 }
