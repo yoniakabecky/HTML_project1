@@ -1,0 +1,113 @@
+@media screen and (max-width:480px) {
+    /*　for iPhone Landscape　*/
+ 
+ }
+ @media screen and (max-width:768px)  {
+    /*　for iPad 　*/
+ }
+
+#contact {
+    background: #FFFFFF;
+    position: relative;
+    width: 1440px;
+    height: 2532;
+}
+
+#header {
+    position: absolute; 
+    width: 1224px;
+    height: 65px;
+    left: 108px;
+    top: 39px; 
+}
+
+a, li {
+    display: inline;
+    color: black;
+}
+
+li:hover{
+    color: blue;
+}
+
+#section1{
+    position: absolute;
+    width: 1440px;
+    height: 497px;
+    left: 0px;
+    top: 190px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Philosopher', sans-serif;
+    margin: 100px 0px 0px 200px; 
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600; 
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 0px 100px;
+}
+
+#section2{
+    position: absolute;
+    width: 1194.5px;
+    height: 137.5px;
+    top: 833px;
+}
+#addressBox {
+
+}
+#address {
+    float: left;
+}
+form{
+    position: absolute;
+    width: 1062px;
+    height: 637px;
+    left: 187px;
+    top: 1515px;
+}
+
+fieldset{
+    background-color: #73545a;
+    font-size: 21px; 
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    margin: 15px; 
+    height: 50px;
+    width:770px;
+}
+
+textarea{
+    margin: 15px; 
+    height: 200px; 
+    width: 770px;
+}
+
+.button {
+    text-align: center; 
+    font-size: 21px;
+    width: 100px; 
+    margin: 15px 0px 0px 870px
+}
+
+/* #footer {
+    position: absolute; 
+    width: 301; 
+    height: 115px;
+    left: 569px;
+    top: 2301px; 
+} */
+
+.adjust{
+    width:7em;
+    display:inline-block;
+    margin: 0px 0px 0px 30px;
+}
