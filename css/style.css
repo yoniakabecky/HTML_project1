@@ -30,23 +30,23 @@ body {
 
 h1 {
   font-family: 'Philosopher', sans-serif;
-  size: 48px;
-}
-
-h2 {
-   font-weight: bold;
-   size: 36px;
-}
-
-h3 {
-  font-weight: Semi-Bold;
   size: 24px;
-}
-
-p {
+ }
+ 
+ h2 {
+   font-weight: bold;
+   size: 21px;
+ }
+ 
+ h3 {
   font-weight: Semi-Bold;
   size: 16px;
-}
+ }
+ 
+ p {
+  font-weight: Semi-Bold;
+  size: 12px;
+ }
 
 /* header area */
 header {
@@ -59,29 +59,38 @@ header {
 .container {
   display: flex;
   justify-content: center;
-  width: 1230px;
+  width: 95%;
   position: relative;
 }
 
 .icon-area {
   justify-content: flex-start;
-  margin-top: 40px;
+  padding-top: 22px;
+  padding-left: 5vw;
   position: absolute;
   left: 0;
 }
 
+.icon-area img{
+  width: 80px;
+}
+
+.menu {
+  display: flex; 
+}
+
 .menu-area {
-  display: flex;
-  justify-content: center;
-  width: 656px;
+  display: flex; 
+  justify-content: space-between;
 } 
 
 .menu-area a {
   color: #FFFFFF;
   font-family: 'Philosopher', sans-serif;
   display: flex;
-  justify-content: space-between;
-  margin: 50px 37px;
+  margin: 35px 1vw;
+  width: 100px;
+  justify-content: center;
   font-size: 24px;
   transition-duration: 0.3s;
   transition-property:color;
@@ -92,24 +101,25 @@ header {
 }
 
 .social-area {  
-  margin-top: 47px;
+  display: flex;
+  margin-top: 27px;
   position: absolute;
+  justify-content: space-between;
   right: 0;
+  padding-right: 5vw;
 }
-
 .social-area img {
+  width: 45px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
-
 .social-area img:hover {
   opacity: 0.7;
 }
 
 .fb {
-  margin-right: 35px; 
-}
-
+  padding-right: 2vw; 
+} 
 
 /* footer area */
 footer {
@@ -121,6 +131,7 @@ footer {
 }
 
 .f-social-area img {
+  width: 45px;
   margin-bottom: 45px;
   transition-duration: 0.3s;
   transition-property: opacity;

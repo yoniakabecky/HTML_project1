@@ -6,38 +6,63 @@
     <meta name="description" content="Classical ballet and contemporary training for young dancers. The school offers performance and choreographic opportunities with professional artists. Ages 4-18">
     <meta name="keywords" content="ballet, istd,classicalballet, danceclasses, balletschool, balletvancouver, balletcanada, balletclasses, tracy-leabloch">
 
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Philosopher" rel="stylesheet">
+
+
+
+
   </head>
 
-
-
   <body>
-    <header>
-        <div class="container">
-          <div class="icon-area header-item">
-            <img src="img/logo.png" alt="logo">
-          </div>
-          <div class="menu-area header-item">
-              <a href="#">Home</a>
-              <a href="#">Our Team</a>
-              <a href="#">Auditions</a>
-              <a href="#">Contact</a>
-          </div>
-          <div class="social-area header-item">
-            <a href="https://www.facebook.com/balletbloch" class="fb"><img src="img/facebook.png"  alt="facebook"></a>
-            <a href="https://www.instagram.com/balletblochcanada/" class="instagram"><img src="img/instagram.png" alt="instagram"></a>
-          </div>
-        </div> 
-      </header>
-  </body>
+      <script type="text/javascript">
+          $(function(){
+            $('#nav_toggle').click(function(){
+                  $("header").toggleClass('open');
+              $("nav").slideToggle(500);
+                });
+          });
+        </script>
 
-  <footer>
-    <div class="f-social-area">
-        <a href="https://www.facebook.com/balletbloch" class="fb"><img src="../img/facebook.png"  alt="facebook"></a>
-        <a href="https://www.instagram.com/balletblochcanada/" class="instagram"><img src="../img/instagram.png" alt="instagram"></a>
-    </div>
-    <p>&copy; Ballet Bloch Canada 2016</p>
-  </footer>
+    <header>  
+      <div class="container inner clearfix">
+        <div class="icon-area">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <div id="nav_toggle">
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
+        <nav>
+            <ul class="menu">
+              <div class="menu-area">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="faculty/index.html">Our Team</a></li>
+                  <li><a href="training/index.html">Training</a></li>
+                  <li><a href="contact/index.html">Contact</a></li>
+              </div>
+              <div class="social-area">
+                  <li><a class="fb" href="https://www.facebook.com/balletbloch" target="_blank"><img src="./img/facebook.png"  alt="facebook"></a></li>
+                  <li><a class="instagram" href="https://www.instagram.com/balletblochcanada/" target="_blank"><img src="./img/instagram.png" alt="instagram"></a></li>
+              </div>
+            </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+    </main>
+
+    <footer>
+      <div class="f-social-area">
+          <a href="https://www.facebook.com/balletbloch" class="fb" target="_blank"><img src="./img/facebook.png"  alt="facebook"></a>
+          <a href="https://www.instagram.com/balletblochcanada/" class="instagram" target="_blank"><img src="./img/instagram.png" alt="instagram"></a>
+      </div>
+      <p>&copy; Ballet Bloch Canada 2016</p>
+    </footer>
+  </body>
 </html>
