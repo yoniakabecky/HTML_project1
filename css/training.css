@@ -105,7 +105,20 @@ h1:after {
     background-color: #73545A;
     color: #F6EDE4;
 }
-
+.main {
+    min-height: 100vh;
+    position: relative;/*←相対位置 */
+  }
+  footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    background: #73545a;
+  }
 @media screen and (max-width:768px)  {
     .section-title {
         padding-top: 5vh;
