@@ -1,6 +1,8 @@
+<script type="text/javascript">
 $(function(){
   $('#nav_toggle').click(function(){
         $("header").toggleClass('open');
-    $("nav").slideToggle(500);
+    $("nav").fadeToggle(500);
       });
 });
+</script>

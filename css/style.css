@@ -163,7 +163,7 @@ footer {
       height: 80px;
     }
   nav{
-		/* display: none; */
+		display: none;
 		position: absolute;
 		top:80px;
     width: 100vw;
