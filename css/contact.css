@@ -38,18 +38,25 @@ li:hover{
     top: 190px;
 }
 
+#contactImage {
+    float: right; 
+    width: 70vw;
+    height: auto; 
+
+}
+
 h1{
     font-size: 48px;
     font-weight: 800;
     font-family: 'Philosopher', sans-serif;
     margin: 100px 0px 0px 200px; 
+    float: left;
 }
 
 h3{
     font-size: 24px;
     font-weight: 600; 
     font-family: 'Montserrat', sans-serif;
-    margin: 0px 0px 0px 100px;
 }
 
 #section2{
@@ -58,11 +65,20 @@ h3{
     height: 137.5px;
     top: 833px;
 }
-#addressBox {
-
-}
-#address {
+#addressImage {
     float: left;
+    width: 100px;
+    height: auto;
+    margin: 0px 0px 0px 170px;
+}
+
+.section2Image {
+    width: 400px;
+    height: auto;
+}
+
+#address {
+    float: right;
 }
 form{
     position: absolute;
