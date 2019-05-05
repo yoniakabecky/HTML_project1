@@ -3,9 +3,17 @@ body, html {
     padding: 0;
 }
 
+header {
+    background:rgb(115, 84, 90, 0.9);
+}
+
 body {
     background-color: #73545A;
     color: #FEFBFB;
+}
+
+.menu-area a:hover {
+    color: rgb(254, 251, 251, 0.5);
 }
 
 .main-area {
@@ -140,4 +148,7 @@ h1:after {
         padding-left: 0;
     }
 
+    nav {
+        background: #73545A;
+      }
 }
