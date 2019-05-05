@@ -31,22 +31,22 @@ body {
 h1 {
   font-family: 'Philosopher', sans-serif;
   size: 24px;
- }
- 
- h2 {
+}
+
+h2 {
    font-weight: bold;
    size: 21px;
- }
- 
- h3 {
+}
+
+h3 {
   font-weight: Semi-Bold;
   size: 16px;
- }
- 
- p {
+}
+
+p {
   font-weight: Semi-Bold;
   size: 12px;
- }
+}
 
 /* header area */
 header {
@@ -88,7 +88,7 @@ header {
 } 
 
 .menu-area a {
-  color: #FFFFFF;
+  color: #FEFBFB;
   font-family: 'Philosopher', sans-serif;
   display: flex;
   margin: 35px 1vw;
@@ -96,13 +96,12 @@ header {
   justify-content: center;
   font-size: 24px;
   transition-duration: 0.3s;
-  transition-property:color;
+  transition-property:opacity;
 }
 
 .menu-area a:hover {
-  color:#73545a;
+  opacity: 0.5;
 }
-
 
 .social-area {
   display: flex;
@@ -112,11 +111,13 @@ header {
   right: 0;
   padding-right: 5vw;
 }
+
 .social-area img {
   width: 45px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
+
 .social-area img:hover {
   opacity: 0.7;
 }
@@ -128,7 +129,7 @@ header {
 /*footer area */
 footer {
   width: 100%;
-  color: #FFFFFF;
+  color: #FEFBFB;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px; 
@@ -145,7 +146,6 @@ footer {
 .f-social-area img:hover {
   opacity: 0.7;
 }
-
 
 /* tabrel layout */
 @media screen and (max-width:768px) {
@@ -167,7 +167,7 @@ footer {
     position: absolute;
     top:  80px;
     width: 100vw;
-    background: #262626;
+    background: #1F1627;
   }
 
   .menu-area {
@@ -179,7 +179,7 @@ footer {
   .menu-area li {
     margin: 0 auto;
     text-align: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #FEFBFB;
   }
 
   .menu-area li:last-child {
@@ -218,7 +218,7 @@ footer {
   #nav_toggle span {
     display: block;
     height: 3px;
-    background: #fff;
+    background: #FEFBFB;
     position: absolute;
     width: 100%;
     left: 0;
