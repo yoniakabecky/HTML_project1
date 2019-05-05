@@ -8,6 +8,10 @@ body {
     color: #FEFBFB;
 }
 
+.main-area {
+    margin-top: 95px; 
+}
+
 h1:after {
     content: "";
     display: block;
@@ -112,16 +116,18 @@ h1:after {
         padding-top: 5vh;
         padding-bottom: 5vh;
     }
+
     .section-img {
         width: 100%;
         padding-bottom: 5vh;
     }
+
     .paragraph-contents {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+
     .audition h2, h3 {
         padding: 0 0 3vh 0;
     }
