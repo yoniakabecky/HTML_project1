@@ -31,22 +31,22 @@ body {
 h1 {
   font-family: 'Philosopher', sans-serif;
   size: 24px;
-}
+ }
  
-h2 {
-  font-weight: bold;
-  size: 21px;
-}
+ h2 {
+   font-weight: bold;
+   size: 21px;
+ }
  
-h3 {
+ h3 {
   font-weight: Semi-Bold;
   size: 16px;
-}
+ }
  
-p {
+ p {
   font-weight: Semi-Bold;
   size: 12px;
-}
+ }
 
 /* header area */
 header {
@@ -103,6 +103,7 @@ header {
   color:#73545a;
 }
 
+
 .social-area {
   display: flex;
   margin-top: 27px;
@@ -111,13 +112,11 @@ header {
   right: 0;
   padding-right: 5vw;
 }
-
 .social-area img {
   width: 45px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
-
 .social-area img:hover {
   opacity: 0.7;
 }
