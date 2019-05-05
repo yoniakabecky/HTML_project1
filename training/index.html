@@ -10,20 +10,23 @@
         <link rel="stylesheet" type="text/css" href="../css/training.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Philosopher" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <title>Training & Audition</title>
     </head>
     <body>
         <header>
             <div class="container inner clearfix">
                 <div class="icon-area">
-                    <img src="../img/logo.png" alt="logo">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="logo">
+                    </a>
                 </div>
                 <div id="nav_toggle">
-                        <div>
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
+                    <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </div>
                 <nav>
                     <ul class="menu">
@@ -134,5 +137,13 @@
             </div>
             <p>&copy; Ballet Bloch Canada 2016</p>
         </footer>
+        <script type="text/javascript">
+            $(function(){
+              $('#nav_toggle').click(function(){
+                    $("header").toggleClass('open');
+                $("nav").fadeToggle(500);
+                  });
+            });
+        </script>
     </body>
 </html>
