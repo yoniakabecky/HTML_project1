@@ -8,6 +8,10 @@ body {
     color: #FEFBFB;
 }
 
+.main-area {
+    margin-top: 95px; 
+}
+
 h1:after {
     content: "";
     display: block;
