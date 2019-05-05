@@ -11,14 +11,15 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Philosopher" rel="stylesheet">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="./js/script.js" type="text/javascript"></script>
         <title>Training & Audition</title>
     </head>
     <body>
         <header>
             <div class="container inner clearfix">
                 <div class="icon-area">
-                    <img src="../img/logo.png" alt="logo">
+                    <a href="../index.html">
+                        <img src="../img/logo.png" alt="logo">
+                    </a>
                 </div>
                 <div id="nav_toggle">
                     <div>
@@ -139,8 +140,7 @@
             $(function(){
                 $('#nav_toggle').click(function(){
                     $("header").toggleClass('open');
-                    $("nav").fadeToggle(500);
-                });
+                $("nav").fadeToggle(500);
             });
         </script>
     </body>
