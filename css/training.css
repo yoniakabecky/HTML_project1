@@ -16,8 +16,9 @@ h1:after {
     content: "";
     display: block;
     margin: 0;
-    width: 150px;
-    padding-top: 20px;
+    width: 140%;
+    margin-left: -20%;
+    padding-top: 15px;
     border-bottom: thin solid #FEFBFB;
 }
 
@@ -109,37 +110,34 @@ h1:after {
     background-color: #73545A;
     color: #F6EDE4;
 }
-.main {
-    min-height: 100vh;
-    position: relative;/*←相対位置 */
-  }
-  footer {
-    position:absolute;
-    bottom: 0;
-    width: 100%;
-    color: #FFFFFF;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px; 
-    background: #73545a;
-  }
+
 @media screen and (max-width:768px)  {
     .section-title {
         padding-top: 5vh;
         padding-bottom: 5vh;
     }
+
     .section-img {
         width: 100%;
         padding-bottom: 5vh;
     }
+
     .paragraph-contents {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    .audition h3 {
-        padding: 0 0 3vh 4vw;
+
+    .audition h2, h3 {
+        padding: 0 0 3vh 0;
     }
 
+    #annual-audition-contents {
+        justify-content: center;
+    }
+
+    #annual-audition-contents p{
+        padding-left: 0;
+    }
 
 }
