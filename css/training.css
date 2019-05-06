@@ -3,9 +3,21 @@ body, html {
     padding: 0;
 }
 
+header {
+    background:rgb(115, 84, 90, 0.9);
+}
+
 body {
     background-color: #73545A;
     color: #FEFBFB;
+}
+
+.menu-area a:hover {
+    color: rgb(254, 251, 251, 0.5);
+}
+
+.main-area {
+    margin-top: 95px; 
 }
 
 h1:after {
@@ -112,16 +124,18 @@ h1:after {
         padding-top: 5vh;
         padding-bottom: 5vh;
     }
+
     .section-img {
         width: 100%;
         padding-bottom: 5vh;
     }
+
     .paragraph-contents {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
     }
-    
+
     .audition h2, h3 {
         padding: 0 0 3vh 0;
     }
@@ -134,4 +148,7 @@ h1:after {
         padding-left: 0;
     }
 
+    nav {
+        background: #73545A;
+      }
 }
