@@ -5,7 +5,9 @@
  @media screen and (max-width:768px)  {
     /*　for iPad 　*/
  }
-
+body {
+    background-color: #73545a;
+}
 #contact {
     background: #FFFFFF;
     position: relative;
@@ -51,12 +53,15 @@ h1{
     font-family: 'Philosopher', sans-serif;
     margin: 100px 0px 0px 200px; 
     float: left;
+    color: #f6ede4;
 }
 
 h3{
     font-size: 24px;
     font-weight: 600; 
     font-family: 'Montserrat', sans-serif;
+    color: #f6ede4;
+
 }
 
 #section2{
@@ -89,9 +94,9 @@ form{
 }
 
 fieldset{
-    background-color: #73545a;
+    background-color: #f6ede4;
     font-size: 21px; 
-    color: white;
+    color: #73545a;
     font-family: 'Montserrat', sans-serif;
 }
 
