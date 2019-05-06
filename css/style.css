@@ -42,10 +42,10 @@ h3 {
   font-weight: Semi-Bold;
   size: 16px;
 }
-
 p {
   font-weight: Semi-Bold;
-  size: 12px;
+  size: 5vw;
+  line-height: 24px;
 }
 
 /* header area */
@@ -68,14 +68,14 @@ header {
 
 .icon-area {
   justify-content: flex-start;
-  padding-top: 22px;
-  padding-left: 5vw;
+  padding-top: 16px;
+  padding-left: 5.5vw;
   position: absolute;
   left: 0;
 }
 
 .icon-area img {
-  width: 80px;
+  width: 70px;
 }
 
 .menu {
@@ -91,10 +91,10 @@ header {
   color: #FEFBFB;
   font-family: 'Philosopher', sans-serif;
   display: flex;
-  margin: 35px 1vw;
+  margin: 30px 0.3vw;
   width: 100px;
   justify-content: center;
-  font-size: 24px;
+  font-size: 18px;
   transition-duration: 0.3s;
   transition-property:opacity;
 }
@@ -105,15 +105,15 @@ header {
 
 .social-area {
   display: flex;
-  margin-top: 27px;
+  margin-top: 20px;
   position: absolute;
   justify-content: space-between;
   right: 0;
-  padding-right: 5vw;
+  padding-right: 5.5vw;
 }
 
 .social-area img {
-  width: 45px;
+  width: 40px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
@@ -123,7 +123,7 @@ header {
 }
 
 .fb {
-  padding-right: 2vw; 
+  padding-right: 1.7vw; 
 } 
 
 /*footer area */
@@ -137,8 +137,8 @@ footer {
 }
 
 .f-social-area img {
-  width: 45px;
-  margin-bottom: 45px;
+  width: 40px;
+  margin-bottom: 15px;
   transition-duration: 0.3s;
   transition-property: opacity;
 }
@@ -193,7 +193,6 @@ footer {
   }
 
   .menu-area a {
-    font-size: 21px;
     margin: 20px auto;
   }
 
