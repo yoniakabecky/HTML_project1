@@ -1,0 +1,179 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #73545A;
+  color: #FEFBFB;
+}
+
+.main-area {
+  margin-top: 95px; 
+}
+
+h1:after {
+  content: "";
+  display: block;
+  margin: 0;
+  width: 140%;
+  margin-left: -20%;
+  padding-top: 15px;
+  border-bottom: thin solid #FEFBFB;
+}
+
+.section-title {
+  float: left;
+  padding-top: 20vh;
+  padding-left: 8vw;
+}
+
+.section-img {
+  float: right;
+  width: 70vw;
+  height: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.paragraph {
+  margin: 6%;
+}
+
+
+/* 
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  position: absolute;
+width: 1700px;
+height: 3590px;
+left: 0px;
+top: 0px;
+
+background: #C4C4C4;;
+}
+header{
+position: absolute;
+width: 1224px;
+height: 74.39px;
+left: 238px;
+top: 39px;
+} 
+
+ .main{
+    position: absolute;
+    width: 1628px;
+    height: 497px;
+    left: 72px;
+    top: 190px;
+} 
+
+#Section1{
+position: absolute;
+width: 1628px;
+height: 497px;
+left: 72px;
+top: 190px;
+}
+
+#Section2{
+position: absolute;
+width: 1189px;
+height: 759px;
+left: 200px;
+top: 850px;
+}
+#Section3{
+position: absolute;
+width: 321px;
+height: 470px;
+left: 319px;
+top: 1658px;
+}
+#Section4{
+position: absolute;
+width: 321px;
+height: 472px;
+left: 690px;
+top: 1658px;
+}
+#section5{
+position: absolute;
+width: 321px;
+height: 453px;
+left: 1061px;
+top: 1658px;
+}
+#section6{
+position: absolute;
+width: 321px;
+height: 470px;
+left: 322px;
+top: 2161px;
+}
+title_copy{
+position: absolute;
+width: 317px;
+height: 116px;
+left: 696px;
+top: 2517px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+image{
+position: absolute;
+width: 321px;
+height: 335px;
+left: 693px;
+top: 2161px;
+background: #FFFFFF;
+}
+section7{
+position: absolute;
+width: 321px;
+height: 472px;
+left: 693px;
+top: 2161px;
+}
+section8{
+position: absolute;
+width: 321px;
+height: 453px;
+left: 1064px;
+top: 2161px;
+}
+section9{
+position: absolute;
+width: 322px;
+height: 469px;
+left: 322px;
+top: 2612px;
+}
+title{
+position: absolute;
+width: 1060px;
+height: 149px;
+left: 325px;
+top: 3137px;
+}
+footer{
+position: absolute;
+width: 301px;
+height: 115px;
+left: 700px;
+top: 3390px;
+}
+.top{
+    display:flex;
+}  */
