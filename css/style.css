@@ -260,8 +260,8 @@ footer {
 
   /*footer area */
   footer {
-    padding-top: 30px;
-    padding-bottom: 30px; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
   }
 
   .f-social-area img {
@@ -270,11 +270,6 @@ footer {
 }
 
 @media screen and (max-width:480px) {
-  footer {
-    padding-top: 20px;
-    padding-bottom: 20px; 
-  }
-
   .f-social-area img {
     margin-bottom: 15px;
     width: 35px;
