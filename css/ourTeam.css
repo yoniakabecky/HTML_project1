@@ -1,0 +1,129 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:rgb(115, 84, 90, 0.9);
+}
+
+body {
+    background-color: #73545A;
+    color: #FEFBFB;
+}
+
+.menu-area a:hover {
+    color: rgb(254, 251, 251, 0.5);
+}
+
+
+/* heading part*/
+h1:after { 
+    content: "";
+    display: block;
+    margin: 0;
+    width: 140%;
+    margin-left: -20%;
+    padding-top: 15px;
+    border-bottom: thin solid #FEFBFB;
+}
+
+.section-title {
+    float: left;
+    padding-top: 30vh;
+    padding-left: 8vw;
+}
+
+.section-img {
+    float: right;
+    width: 70vw;
+    height: auto;
+    padding-top: 15vh;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+
+/* director section */
+#director-section {
+    margin: 20vh 8vw 15vh 10vw;
+}
+
+#director-img {
+    float: left;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+}
+
+.director-photo {
+    width: 300px;
+    height: 345px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#director-article {
+    width: 80vw;
+}
+
+#director-article h2, h3{
+    margin-bottom: 0.3em;
+}
+
+#director-article p{
+    margin-top: 1.5em;
+}
+
+
+/* teachers section */
+#teachers-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20vh 8vw 15vh 10vw;
+}
+
+.teacher {
+    width: 300px;
+    margin-bottom: 5vh;
+}
+
+.teacher-photo{
+    width: 280px;
+    height: 335px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* guest section*/
+#guest-section {
+    margin: 20vh 8vw 15vh 10vw;
+}
+
+#guest-section h3{
+    margin-bottom: 0.5em;
+}
+
+
+/* for small screen */
+@media screen and (max-width:768px) {
+    .section-title {
+        padding-top: 15vh;
+    }
+
+    .section-img {
+        width: 100%;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+    
+    #director-article {
+        clear: both;
+    }
+    
+    .teacher {
+        margin: 0 auto;
+        margin-bottom: 5vh;
+    }
+}
