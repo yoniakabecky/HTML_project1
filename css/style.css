@@ -34,14 +34,15 @@ h1 {
 }
 
 h2 {
-   font-weight: bold;
-   size: 21px;
+  font-weight: bold;
+  size: 21px;
 }
 
 h3 {
   font-weight: Semi-Bold;
   size: 16px;
 }
+
 p {
   font-weight: Semi-Bold;
   size: 5vw;
@@ -147,7 +148,7 @@ footer {
   opacity: 0.7;
 }
 
-/* tabrel layout */
+/* tablet layout */
 @media screen and (max-width:768px) {
   .icon-area {
     padding-top: 18px;
@@ -238,7 +239,7 @@ footer {
     top:24px;
   }
 
-  /*navi open action*/
+  /*nav open action*/
   .open #nav_toggle span:nth-child(1) {
     top: 12px;
     -webkit-transform: rotate(135deg);
